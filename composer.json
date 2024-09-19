@@ -1,0 +1,17 @@
+{
+  "name": "luminar-organization/console",
+  "description": "A console component for the Luminar framework based on symfony console library",
+  "type": "library",
+  "require": {
+    "php": "^8.2",
+    "symfony/console": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Luminar\\Console\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
